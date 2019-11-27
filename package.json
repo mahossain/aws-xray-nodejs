@@ -1,0 +1,25 @@
+{
+  "name": "nodeJSProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-xray-lambda-promise-subsegment": "^2.1.0",
+    "aws-xray-sdk": "^2.5.0",
+    "aws-xray-sdk-core": "^2.5.0",
+    "axios": "^0.19.0",
+    "express": "^4.16.4",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
